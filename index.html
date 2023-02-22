@@ -5,88 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-
-  <title>Frontend Mentor | Results summary component</title>
+  
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap" rel="stylesheet"> <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
+  <div class="Container">
+    <div class="YourResult">
 
+      
+      <div class="Text1">
+        <p>Your Result</p>
+      </div>
+      <div class="Circle">
 
-<div class="container">
-  <div class="ResultScore">
-    <h2> Your Result</h2>
-    <div class="Circles">
-      <h1>76</h1>
-      <p>of 100</p>
+        <div class="SubCircle">
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+      
+        
+      </div>
+      <div class="Text2">
+        <h1>Great</h1>
+        <p>Your performance exceed 65% of the people conducting the test here!</p>
+      </div>
     </div>
-    <h1>Great</h1>
-    
-    <p>You scored higher than 65% of the people who have taken these tests.
-    </p>
-    
+    <div class="Summary">
+
+      
+      <div class="Text3">
+        <h2>Summary</h2>
+      </div>
+      <div class="containerJsonScore">
+        
+      </div>
+      <div class="Continue">
+      <button>Continue</button>
+      </div>
+    </div>
     
   </div>
-  <div class="Summary">
-    <div class="detailSummary">
-      <h2>Summary</h2>
-      <div id="cards-container"></div>
-
-    </div>
-    <!-- <h1>test</h1> -->
-    <button class="button button1">Continue</button>
-
-  </div>
-
-</div> 
-
-
-  <!-- Your Result
-  76
-  of 100
-
-  Great
-   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-   -->
-
-
-
-
-
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-
- 
-
-  <script src="script.js"></script>
-
-
-
+  <script src="app.js"></script>
 </body>
 </html>
